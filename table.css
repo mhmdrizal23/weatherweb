@@ -1,0 +1,82 @@
+.watch-list {
+    height: 700px;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.add-row {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.delete-row{
+    background-color: #d32f2f;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.imovie{    
+    padding: 10px 0;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid rgb(96, 158, 197);
+}
+
+.irating {    
+    padding: 10px 0;
+    outline: 0;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(96, 158, 197);
+}
+
+.search{
+    padding: 10px 0;
+    margin-left: 400px;
+    border: none;
+    border-bottom: 1px solid rgb(96, 158, 197);
+    outline: 0;
+}
+
+table {
+    width: 70%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th{
+    cursor: pointer;
+}
+
+.checkbox{
+    width: 21px;
+}
+
+table, th, td {
+    border: 1px solid #cdcdcd;
+}
+
+table td {
+    padding: 5px;
+    text-align: left;
+}
+
+table th{
+    background-color: rgb(95, 136, 212);
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.rating{
+    text-align: center;
+}

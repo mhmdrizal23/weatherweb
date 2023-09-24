@@ -1,0 +1,75 @@
+body 
+{
+    margin: 0;
+    padding: 50px 0px;
+}
+
+button.clear
+{
+    background: #fe9e09;
+    color: #ffffff;
+}
+
+/* style gae tabel nya kan ada banyak tuh ditengahin aja soale 
+dah dicolspan juga jadi gak usah takut ancur*/
+table 
+{
+    background: #000000;
+    border: 6px solid #000000;
+    border-radius: 50px;
+    box-shadow: 0px 0px 27px #000000;
+    margin-top: 90px;
+    padding: 7px 5px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+button.equal 
+{
+    background: #ff3700;
+    width: 88%;
+}
+
+button.equal:hover 
+{
+    background: #f5e7d2;
+}
+
+input[type="text"] 
+{
+    background: #000000;
+    border: 1px solid #000;
+    border-bottom: 2px solid #ffffff;
+    color: #dedede;
+    font-family: 'consolas';
+    font-size: 29px;
+    font-weight: bold;
+    height: 81px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 450px;
+}
+
+
+button {
+    background: #000803;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Consolas';
+    font-size: 26px;
+    font-weight: bold;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 100px;
+}
+
+/* Bayangan (bukan shadow tapi) dibelakang button*/
+button:hover 
+{
+    background: #f5e7d2;
+    color: #000000;
+}

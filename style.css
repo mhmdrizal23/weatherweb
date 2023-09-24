@@ -1,0 +1,286 @@
+body {
+    background: #243342;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown {
+    margin: 0 auto;
+}
+
+nav {
+    height: 100px;
+    background: #243342;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    padding: 5px 0 0 80px;
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+div div div ul p {
+    text-align: left;
+}
+
+nav ul li {
+    background: #243342;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 15px;
+}
+
+div div p {
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background: #5a89b8;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    width: px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+.sidebar {
+    position: relative;
+    background: #fff;
+    max-width: 325 px;
+    width: 325px;
+    height: auto;
+    margin: 25px;
+    box-shadow: 0 5 px 25px rgb(1 1 1 / 20%);
+    border-radius: 10px;
+    float: right;
+    overflow: hidden;
+}
+
+div div input {
+    color: white;
+    border-color: white;
+}
+
+.search input[type=text] {
+    background-color: #243342;
+    width: 330px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+}
+
+.search {
+    float: left;
+    color: #243342;
+    margin: 7px;
+}
+
+.search button {
+    color: #243342;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.berita ul li {
+    margin: 5px;
+}
+
+.berita a {
+    font-size: 17px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.card {
+    position: relative;
+    background: #fff;
+    max-width: 325 px;
+    width: 325px;
+    height: auto;
+    margin: 25px;
+    box-shadow: 0 5 px 25px rgb(1 1 1 / 20%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-info {
+    position: relative;
+    color: #222;
+    padding: 10px 20px 20px;
+}
+
+.card-info h3 {
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.card-info p {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.pagination {
+    text-align: center;
+    margin: 30px 30px 60px;
+    user-select: none;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+
+.pagination li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 45px;
+}
+
+.previous-page,
+.next-page {
+    background: #0ab1ce;
+    width: 80px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.previous-page:hover {
+    transform: translateX(-5px);
+}
+
+.previous-page:hover {
+    transform: translateX(5px);
+}
+
+.current-page,
+.dots {
+    background: #ccc;
+    width: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active {
+    background: #0ab1ce;
+}
+
+.disable {
+    background: #ccc;
+}
+
+#footer {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer {
+    color: white;
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+/* #footer .social-item {
+    height: 0px;
+    width: 200px;
+    margin: 0 5px;
+} */
+
+#footer .social-item img {
+    filter: grayscale(1);
+    height: 50;
+    transition: 0.3s ease filter;
+}
+
+#footer .social-item:hover img {
+    filter: grayscale(0);
+}
+
+#footer p {
+    color: white;
+    font-size: 1rem;
+}
+
